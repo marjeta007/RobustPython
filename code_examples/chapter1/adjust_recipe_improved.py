@@ -6,6 +6,7 @@ from typing import List
 
 @dataclass
 class Ingredient:
+    """Ingredient in a recipe."""
     name: str
     amount: Fraction
     units: str
@@ -15,6 +16,7 @@ class Ingredient:
 
 @dataclass
 class Recipe:
+    """Contains the number of servings and list of ingredients"""
     servings: int
     ingredients: list[Ingredient]
 
@@ -23,7 +25,7 @@ class Recipe:
 
     def get_ingredients(self):
         return self.ingredients
-    
+
 # Take a meal recipe and change the number of servings
 # recipe is a Recipe class
 def adjust_recipe(recipe, servings):

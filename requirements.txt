@@ -6,11 +6,23 @@ monkeytype
 mutmut
 pydantic
 pyhamcrest
-pyre-check
+# pyre-check
 pytest
-pytype
+# pytype
 pyyaml
 rx
 stevedore
 
 code_examples/plugin
+
+pylint
+black
+pytest
+coverage
+flake8
+isort
+mypy
+pytest
+pytest-cov
+pytest-mock
+coverage
